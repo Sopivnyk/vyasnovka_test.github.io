@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@import url(/css/fonts.css);
+
+body{
+    background-color:rgb(11, 11, 11);
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+
+  }
+
+  .navbar{
+    position: fixed;
+  }
+
+  .navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    
+  }
+
+  .navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .navbar a:hover{
+    color: #acacac;
+  }
+
+  .heading{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #pht, #by {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .section-heading {
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: -2px;
+    word-spacing: 4px;
+    line-height: 3.2rem;
+    margin-right: 1em;
+  }
+
+  .first-img{
+    max-width: 600px;
+    padding-top: 2em;
+  }
+
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+  
+  .container-main-info{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .main-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 20px;
+    max-width: 350px;
+    
+  }
+    
+  .vyasnovka-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+  }
+
+  .main-header {
+    text-align: center;
+    font-size: 1.6rem;
+    
+  }
+  .block-title {
+    text-align: left;
+    font-size: 1.5rem;
+    
+  }
+
+
+
+  img{
+    max-width: 350px;
+    height: auto;
+    margin: 0.5em 0.5em;
+    object-fit: cover;
+	  transition: transform 400ms ease-out;
+  }
+
+  img:hover{
+    transform: scale(1.1);
+  }
+
+
+  .content-img{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .individual, .love-story, .business, .corporate, .wedding, .pregnant{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6rem 0;
+  }  
+
+
+ 
+
+  .contacts{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6rem 0;
+  }
+
+  #contphoto{
+    margin: 2rem 0;
+  }
+
+  #sm_link{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+
+  }
+
+  #cont_h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
